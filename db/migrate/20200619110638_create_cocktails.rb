@@ -1,7 +1,7 @@
 class CreateCocktails < ActiveRecord::Migration[6.0]
   def change
     create_table :cocktails do |t|
-      t.integer :id
+      t.integer :id_cocktail
       t.string :name
 
       t.timestamps
